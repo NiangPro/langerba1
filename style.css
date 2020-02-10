@@ -1,0 +1,262 @@
+
+
+@media (min-width: 768px) {
+  #global{
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 150px) {
+  #global{
+    font-size: 1rem;
+  }
+}
+
+/* Show it is fixed to the top */
+*{
+  text-decoration: none;
+  list-style: none;
+   padding: 0;
+  margin: 0;
+  font-family: merriweathe, serif;
+}
+
+.dropdown:hover>.dropdown-menu{
+  display: block !important;
+}
+
+.dropdown >ul ul li a:hover{
+  color: #FC8F44;
+}
+
+.dropdown >ul li a:hover{
+  color: #FC8F44;
+}
+
+.dropdown >ul ul{
+  margin-left: 100%;
+  top: -11px;
+}
+body{
+  font-family: merriweather, serif;
+}
+
+#langerba{
+  margin-left: 8%;
+  font-size: 34px;
+}
+
+#barnav{
+  margin-left: 20%;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+#barnav li{
+  font-size: 16px;
+  width: 110px;
+}
+
+#numtel{
+  margin-left: 15%;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  font-family: adobe Hebrew;
+}
+
+#numtel a{
+   font-family: adobe Hebrew;
+}
+#numtel:hover{
+  text-decoration: none;
+  color: #FC8F44;
+}
+
+/*************************** MENU 1 ****************************/
+#menu1{
+  width: 100%;
+  background: #003c5A;
+  height: 600px;
+  color: white;
+}
+
+#menu1 .container-fluid{
+  background: url(image/photo1.png) no-repeat;
+  height: 100%;
+  background-position: bottom;
+  background-size: 110%;
+}
+
+#menu1 #textmenu1{
+  padding-top: 12%;
+  line-height: 60px;
+}
+
+#menu1 #textmenu1 h1{
+ font-size: 50px;
+}
+
+#menu1 #textmenu1 h5{
+ opacity: 0.5;
+ font-size: 18px;
+}
+
+#textmenu1 button{
+  border-radius: 24px;
+  color: white;
+  background: #FC8F44;
+  width: 200px;
+  margin-top: 2%;
+  height: 50px;
+}
+
+/****************** MENU 2 ************************************/
+#menu2{
+  height: 100%;
+  width: 100%;
+  background: #EDF4F8;
+  font-size: 16px;
+}
+
+#menu2 h2{
+  font-size: 38px;
+}
+
+#menu2 h3{
+  font-size: 28px;
+}
+#menu2 .container{
+  height: 100%;
+  width: 100%;
+}
+
+#menu2 .row{
+  padding-top: 5%;
+}
+
+#menu2 button{
+  border-radius: 24px;
+  color: white;
+  background: #FC8F44;
+  width: 200px;
+  height: 50px;
+  border: none;
+}
+
+/*************************** MENU 3 **************************/
+#menu3{
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 13px;
+}
+
+#menu3 .row{
+  margin-top: 2%;
+}
+
+#menu4{
+  width: 100%;
+  height: 100%;
+  background: #EAF4F8;
+}
+
+#menu4 .row{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/***************** MENU ******************/
+#menu5{
+  width: 100%;
+  height: 100%;
+  background: #003c5A;
+  color: white;
+  padding-top: 10%;
+  line-height: 50px;
+  padding-bottom: 10%;
+}
+
+#menu5 form{
+  margin-left: 15%;
+}
+
+#menu5 button{
+  border-radius: 24px;
+  color: white;
+  background: #FC8F44;
+  height: 50px;
+  width: 200px;
+}
+
+#menu5 input{
+  border-radius: 24px;
+  width: 50%;
+  height: 50px;
+ }
+
+ #menu5 h5{
+  opacity: 0.5;
+ }
+
+/******************** MENU 6 ***********************/
+ #menu6{
+  width: 100%;
+  height: 100%;
+  background: #E76E33;
+ }
+
+ #menu6 .container-fluid{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-indicators li{
+  border-radius: 50%;
+  height: 5px;
+  width: 25px;
+}
+
+/******************** MENU 7 *********************/
+ #menu7{
+  height: 160px;
+  width: 100%;
+  background: #272727;
+  font-weight: lighter;
+  font-size: 14px;
+  }
+
+ #pied_haut{
+  height: 70px;
+   padding-left: 7%;
+   padding-right: 8%;
+ }
+
+#pied_haut ul li{
+  width: 100px;
+  font-size: 14px;
+}
+
+ #pied_haut #image{
+  margin-left: 10%;
+  
+ }
+
+ #pied_bas{
+  height: 70px;
+  border-top: 1px solid white;
+  color: white;
+  padding-left: 8%;
+  padding-top: 1%;
+  font-weight: lighter;
+  opacity: 0.5;
+ }
+
+ #pied_bas p{
+  font-size: 13px;
+ }
+
+ 
